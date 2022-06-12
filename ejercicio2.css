@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(http://www.solofondos.com/wp-content/uploads/2015/11/Imagen-de-fondo-html.jpg);
+    background-attachment: fixed;
+}
+
+nav {
+    width: 100%;
+    padding: 10px;
+    background-color: #052D46;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    opacity: 70%;
+}
+
+nav .Portafolio {
+    font-size: 2em;
+    border: 0px;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    font: size 140px;
+    ;
+}
+
+nav .menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.image {
+    width: 405px;
+    margin: 0% auto;
+    border: 3px solid skyblue;
+    margin-bottom: 15px;
+    margin-left: 90px;
+}
+
+.primero {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.foto1 {
+    width: 399px;
+    height: 350px;
+    background-image: url("https://scontent.ftgu2-2.fna.fbcdn.net/v/t1.6435-9/75446638_551817098726513_5949376191474434048_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeGtknGoWEmeODs-4-SRlRoZZwSnml3EJZFnBKeaXcQlkfhHohcK1i5Uka3mpC4ixJ5HUxMhikxFPwBBWbdORI6l&_nc_ohc=cC_fpowmrK4AX-0dsJd&_nc_ht=scontent.ftgu2-2.fna&oh=00_AT-lnhEciEIlpldkgZbujghVwD8eSztIf2Wi9h7GeVrFbg&oe=62CAD541")
+}
+
+.foto2 {
+    width: 399px;
+    height: 350px;
+    background-position: 50%;
+    background-image: url("https://scontent.ftgu2-2.fna.fbcdn.net/v/t39.30808-6/275004983_1088642391710645_5107515004606545990_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeF3dzAgjzRB71hA9qop2I4SEgwGxCm1zWkSDAbEKbXNabD3A246SLpyzix2yXn3fb5npSmzBS5TdfXMLLTSjk-S&_nc_ohc=kM9bLe5K55kAX9nfWAc&_nc_ht=scontent.ftgu2-2.fna&oh=00_AT-kYQr10aNYF0vd7KFztYA6RBehk-NwB2C3CMPfraDRog&oe=62AAEA6D");
+}
+
+.foto3 {
+    width: 399px;
+    height: 350px;
+    background-size: cover;
+    background-image: url("https://scontent.ftgu2-2.fna.fbcdn.net/v/t39.30808-6/280511315_1133543460553871_7140216135024266547_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeH8aspydLIMPDCEfZ5oA6Ws9gBTcgwk66r2AFNyDCTrqgdTKkyAXzlHPFMu8auMVaVE9lVfk2DKUeS7XvRN8b4E&_nc_ohc=e4q-k5-0Ua0AX8FSwZW&tn=t1aLKIJC8JgG5Dss&_nc_ht=scontent.ftgu2-2.fna&oh=00_AT_JpoUO0ssI8EhBFmI-kD0Smo8H7h31LBDRN_DmBB9ryg&oe=62AA7DB1");
+}
+
+.contenedor {
+    margin: 0 auto;
+    display: flex;
+}
+h2{
+    color: #a5c7dd;
+}
+.imgbiografía{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #a5c7dd;
+}
+.hobbys{
+    text-align: center;
+}
+.Estudios{
+    text-align: center;
+}
+.Metas{
+    text-align: center;
+}
+h3{
+    margin-bottom: 50px;
+}
